@@ -8,7 +8,7 @@ peername = "marte"
 address = "10.123.123.240/24"
 listen_port = 6666
 public_key = "vS6JBz+GPStFTgerKD0Zz8cEZPOFdpABgGgAhB484wg="
-allowed_ips = ["10.123.123.240/24"]
+allowed_ips = ["10.123.123.240/32"]
 persistent_keepalive = 25
 endpoint = "marte-de.uovobw.net"
 mtu = 1500
@@ -19,7 +19,7 @@ peername = "saturno"
 address = "10.123.123.183/24"
 listen_port = 6666
 public_key = "/UYfZPEWuJaZ1EmAc88n7TnZqwkO/HYoRh2iBrj98go="
-allowed_ips = ["10.123.123.183/24"]
+allowed_ips = ["10.123.123.183/32"]
 persistent_keepalive = 25
 endpoint = "saturno-de.uovobw.net"
 mtu = 1500
