@@ -2,6 +2,17 @@ repository = "novanet"
 network = "10.123.123.0/24"
 domain = "blackmesa.labs"
 
+[peers.uovobw-raspi]
+username = "uovobw"
+peername = "raspi"
+address = "10.123.123.111/24"
+listen_port = 6666
+public_key = "/UYfZPEWuJaZ1EmAc88n7TnZqwkO/HYoRh2iBrj98go="
+allowed_ips = ["10.123.123.111/32"]
+persistent_keepalive = 25
+mtu = 1500
+
+
 [peers.uovobw-marte]
 username = "uovobw"
 peername = "marte"
