@@ -21,7 +21,7 @@ listen_port = 6666
 public_key = "vS6JBz+GPStFTgerKD0Zz8cEZPOFdpABgGgAhB484wg="
 allowed_ips = ["10.123.123.240/32"]
 persistent_keepalive = 25
-endpoint = "marte-de.uovobw.net"
+endpoint = "marte.uovobw.net"
 mtu = 1500
 
 [peers.uovobw-saturno]
@@ -32,7 +32,7 @@ listen_port = 6666
 public_key = "/UYfZPEWuJaZ1EmAc88n7TnZqwkO/HYoRh2iBrj98go="
 allowed_ips = ["10.123.123.183/32"]
 persistent_keepalive = 25
-endpoint = "saturno-de.uovobw.net"
+endpoint = "saturno.uovobw.net"
 mtu = 1500
 
 [peers.uovobw-giove]
@@ -43,5 +43,5 @@ listen_port = 6666
 public_key = "+d/lKXMqw20+lcc6I+IesPWi9zTN+v4Vai9U4VTOkSY="
 allowed_ips = ["10.123.123.156/32"]
 persistent_keepalive = 25
-endpoint = "giove-he.uovobw.net"
+endpoint = "giove.uovobw.net"
 mtu = 1500
