@@ -2,35 +2,35 @@ repository = "novanet"
 network = "10.123.123.0/24"
 domain = "blackmesa.labs"
 
-[peers.uovobw-marte]
+[peers.uovobw-giove]
 username = "uovobw"
-peername = "marte"
-address = "10.123.123.240/24"
+peername = "giove"
+address = "10.123.123.128/24"
 listen_port = 6666
-public_key = "vS6JBz+GPStFTgerKD0Zz8cEZPOFdpABgGgAhB484wg="
-allowed_ips = ["10.123.123.240/32"]
+public_key = "kPECk78/vC7hRKWXtL4KYG99J41C22XvzEmP0yl3RQU="
+allowed_ips = ["10.123.123.128/32"]
 persistent_keepalive = 25
-endpoint = "marte.uovobw.net"
+endpoint = "giove.uovobw.net"
 mtu = 1500
 
 [peers.uovobw-saturno]
 username = "uovobw"
 peername = "saturno"
-address = "10.123.123.183/24"
+address = "10.123.123.155/24"
 listen_port = 6666
-public_key = "/UYfZPEWuJaZ1EmAc88n7TnZqwkO/HYoRh2iBrj98go="
-allowed_ips = ["10.123.123.183/32"]
+public_key = "7Xnm5MoqKVdjJrktqsZxgTY7+1MXHk8wBHIoFnpTWyk="
+allowed_ips = ["10.123.123.155/32"]
 persistent_keepalive = 25
 endpoint = "saturno.uovobw.net"
 mtu = 1500
 
-[peers.uovobw-giove]
+[peers.uovobw-marte]
 username = "uovobw"
-peername = "giove"
-address = "10.123.123.156/24"
+peername = "marte"
+address = "10.123.123.80/24"
 listen_port = 6666
-public_key = "+d/lKXMqw20+lcc6I+IesPWi9zTN+v4Vai9U4VTOkSY="
-allowed_ips = ["10.123.123.156/32"]
+public_key = "cHo4d+FyLjbefzOPjgDfXn2v40TUn7nLt6vnZiT5Kw8="
+allowed_ips = ["10.123.123.80/32"]
 persistent_keepalive = 25
-endpoint = "giove.uovobw.net"
+endpoint = "marte.uovobw.net"
 mtu = 1500
