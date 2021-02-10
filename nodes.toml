@@ -28,6 +28,6 @@ peername = "raspi-1"
 address = "10.123.123.42/24"
 listen_port = 6666
 public_key = "l5f5rhuHYsibxhATaUTSdBGkbwMrsfh0P4RQUCuiq1g="
-allowed_ips = ["10.123.123.42/32"]
+allowed_ips = ["10.123.123.42/32", "10.123.123.34/32"]
 persistent_keepalive = 20
 mtu = 1500
