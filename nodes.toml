@@ -7,7 +7,7 @@ peername = "home-uk"
 address = "10.123.123.60/24"
 listen_port = 6666
 public_key = "T/HmYDWDJzcGO1DQRWBmsC2YvfSaSCz4zCv495Z64T8="
-allowed_ips = ["10.123.123.0/24"]
+allowed_ips = ["10.123.123.60/32", "10.123.123.34/32", "10.123.123.42/32"]
 persistent_keepalive = 0
 endpoint = "crisidev.org"
 mtu = 1500
@@ -18,7 +18,7 @@ peername = "home"
 address = "10.123.123.34/24"
 listen_port = 6666
 public_key = "y7ZW514KfN0OzRV97NQlEm1tNhGkkq/kaB9LwnBZlSs="
-allowed_ips = ["10.123.123.0/24"]
+allowed_ips = ["10.123.123.34/32", "10.123.123.60/32", "10.123.123.42/32"]
 persistent_keepalive = 0
 mtu = 1500
 
@@ -28,6 +28,6 @@ peername = "raspi-1"
 address = "10.123.123.42/24"
 listen_port = 6666
 public_key = "l5f5rhuHYsibxhATaUTSdBGkbwMrsfh0P4RQUCuiq1g="
-allowed_ips = ["10.123.123.0/24"]
+allowed_ips = ["10.123.123.42/24", "10.123.123.34/32", "10.123.123.60/32"]
 persistent_keepalive = 20
 mtu = 1500
