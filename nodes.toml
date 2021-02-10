@@ -4,7 +4,7 @@ domain = "blackmesa.labs"
 [peers.bigo-home-uk]
 username = "bigo"
 peername = "home-uk"
-address = "10.123.123.60/24"
+address = "10.123.123.60/32"
 listen_port = 6666
 public_key = "T/HmYDWDJzcGO1DQRWBmsC2YvfSaSCz4zCv495Z64T8="
 allowed_ips = ["10.123.123.60/32"]
@@ -15,7 +15,7 @@ mtu = 1500
 [peers.ma82-home]
 username = "ma82"
 peername = "home"
-address = "10.123.123.34/24"
+address = "10.123.123.34/32"
 listen_port = 6666
 public_key = "y7ZW514KfN0OzRV97NQlEm1tNhGkkq/kaB9LwnBZlSs="
 allowed_ips = ["10.123.123.34/32"]
@@ -25,7 +25,7 @@ mtu = 1500
 [peers.uovobw-raspi-1]
 username = "uovobw"
 peername = "raspi-1"
-address = "10.123.123.42/24"
+address = "10.123.123.42/32"
 listen_port = 6666
 public_key = "l5f5rhuHYsibxhATaUTSdBGkbwMrsfh0P4RQUCuiq1g="
 allowed_ips = ["10.123.123.42/32"]
